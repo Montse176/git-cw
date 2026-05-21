@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpport" content ="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Montserrat García Núñez">
+    <meta name="description" content="Tabla de apunte">
+
+    <title>Apunte</title>
+    <style>
+        table,th,td
+        {
+            border:1px solid black;
+        }
+    </style>
+
+</head>
+<body>
+    <table>
+        <caption>Tabla de apunte</caption>
+        <thead>
+        <tr>
+        <th scope="col">Etiqueta</th>
+        <th scope="col">Para que sirve</th>
+        <th scope="col">Ejemplo mínimo</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>ol</td>
+        <td>Es una lista ordenada</td>
+        <td><pre><code>
+            &lt;ol&gt;
+                &lt;li&gt;Elemento 1&lt;/li&gt;
+                &lt;li&gt;Elemto 2&lt;/li&gt;
+                &lt;li&gt;Elemto 3&lt;/li&gt;
+            &lt;/ol&gt;
+        </code></pre><td></tr>
+
+        <tr>
+        <td>ul</td>
+        <td>Es una lista desordenada</td>
+        <td><pre><code>
+            &lt;ul&gt;
+                &lt;li&gt;Lunes: 10:20 - 12:00&lt;/li&gt;
+                &lt;li&gt;Martes y Jueves: 10:20 - 11:10&lt;/li&gt;
+            &lt;/ul&gt;
+        </code></pre><td></tr>
+       
+        <tr>
+        <td>code</td>
+        <td>Para poner parte de un código</td>
+        <td><pre><code>
+            &lt;code&gt;int edad;&lt;/code&gt;
+        </code></pre><td></tr>
+
+        <tr>
+        <td>p</td>
+        <td>Es para poner un párrafo</td>
+        <td><pre><code>
+            &lt;p&gt;Sistema de inscripciones a talleres extrarriculares&lt;/p&gt;
+        </code></pre><td></tr>
+
+        <tr>
+        <td>li</td>
+        <td>Es para poner loes elementos de una lista</td>
+        <td><pre><code>
+            &lt;li&gt;&lt;a href="index.html"&gt;Inicio&lt;/a>&lt;/li&gt;
+        </code></pre><td></tr>
+        </tbody>
+        </table>
+
+        <form>
+            <label for="texto">Introduce tu nombre:</label>
+            <input id="nombre" type="text">
+            <br>
+            <label for="texto">Introduce tu correo:</label>
+            <input id="1apellido" type="email">
+            <br>
+            <label for="texto">Introduce tu Segundo apellido:</label>
+            <input id="2apellido" type="submit"><button>Inscribirme</button></form>
+        </form>
+</body>
+</html>
