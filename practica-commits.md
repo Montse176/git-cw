@@ -11,16 +11,16 @@ Edita → `git add practica-commits.md` → `git commit -m "..."`
 **Commit:** `feat(perfil): agrega presentación de [tu nombre]`
 
 ```
-Nombre     : 
-GitHub     : 
-Algo sobre mí : 
+Nombre     : Montserrat García Núñez Montserrat
+GitHub     :  https://github.com/Montse176
+Algo sobre mí : Me gustan los videojuegos
 ```
 
 ---
 
 ## Nivel 2 · Lo que ya sabes hacer
 
-**Qué hacer:** Agrega al menos tres cosas que sabes hacer (no tienen que ser de programación).  
+**Qué hacer:** Aprendo rapido, me adpto facil y soy bastante observadora.
 **Commit:** `feat(habilidades): agrega lista de habilidades`
 
 - 
@@ -33,9 +33,9 @@ Algo sobre mí :
 **Commit:** `fix(convenciones): corrige errores en descripción de Git`
 
 > Git es un sistema de control de versiones creado en 2005 por Linus Torvalds
-> para reemplazar a SubVersion, que era de código cerrado y dejó de darse gratis al proyecto Linux.
+> para reemplazar a bitkeeper, que era de licencia y dejó de darse gratis al proyecto Linux.
 > Cada commit guarda una fotografía de todos los archivos del repositorio en ese momento,
-> identificada con un hash MD5 único. Para subir cambios al servidor usamos `git pull`.
+> identificada con un hash SHA-1 único. Para subir cambios al servidor usamos `git push`.
 
 ---
 
@@ -44,9 +44,9 @@ Algo sobre mí :
 **Qué hacer:** Escribe tres cosas concretas que aprendiste en esta sesión.  
 **Commit:** `docs(aprendizaje): agrega notas de la sesión`
 
-1. 
-2. 
-3. 
+1. Qué es git y github
+2. Como intalar git
+3. Qué es un repositorio
 
 ---
 
@@ -57,12 +57,12 @@ Algo sobre mí :
 
 | Comando | ¿Qué hace? |
 |---------|------------|
-| `git init` | |
-| `git status` | |
-| `git add .` | |
-| `git commit -m "..."` | |
-| `git log --oneline` | |
-| `git push` | |
+| `git init` | Inicializa un repositorio Git|
+| `git status` | Muestra el estado de los archivos |
+| `git add .` | Agrega todos los archivos al staging |
+| `git commit -m "..."` | Guarda los cambios con un mensaje |
+| `git log --oneline` | Muestra el historial resumido de commits |
+| `git push` | Sube los cambios al repositorio remoto |
 
 ---
 
@@ -71,11 +71,11 @@ Algo sobre mí :
 **Qué hacer:** Cambia `[ ]` por `[x]` en cada punto que ya dominas.  
 **Commit:** `chore(practica): actualiza checklist de avance`
 
-- [ ] Hice `git init` sin ayuda
-- [ ] Entiendo para qué sirve el Staging Area
-- [ ] Escribí un mensaje de commit con formato Conventional Commits
-- [ ] Puedo ver el historial con `git log`
-- [ ] Completé todos los niveles de esta práctica
+- [x ] Hice `git init` sin ayuda
+- [ x] Entiendo para qué sirve el Staging Area
+- [x ] Escribí un mensaje de commit con formato Conventional Commits
+- [ x] Puedo ver el historial con `git log`
+- [x ] Completé todos los niveles de esta práctica
 
 ---
 
