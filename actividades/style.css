@@ -1,0 +1,64 @@
+
+table, th, td{
+    border: 3px solid rgb(11, 100, 118);
+    border-collapse: collapse;
+}
+
+.integrantes{
+    background-color: #FF7559;
+}
+
+#HatsiColor{
+    background-color: red;
+}
+#AxelColor{
+    background-color: red;
+}
+#MontseColor{
+    background-color: green;
+}
+#InesColor{
+    background-color: lightblue;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.color:hover {
+    background-color: rgb(185, 255, 180);
+    color: rgb(34, 8, 8);
+}
+
+#HatsiColor:hover{
+    background-color: white;
+    color:  red;
+}
+
+#AxelColor:hover{
+    background-color: white;
+    color:  red;
+}
+
+#MontseColor:hover{
+    background-color: white;
+    color: rgb(45, 109, 53);
+}
+
+#InesColor:hover{
+    background-color: white;
+    color: rgb(86, 139, 157);
+}
+
+@media (max-width: 600px){
+    body{
+        background-color: rgb(170, 232, 209);
+    }
+}
+
+.sticky{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(224, 133, 234);
+    border: 2px solid black;
+}
